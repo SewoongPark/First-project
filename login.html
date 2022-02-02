@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <html lang = "ko">
+  <meta charset = "UTF-8">
+  <title>나의 첫 웹페이지</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&family=Noto+Sans+KR:wght@100;400;500&display=swap" rel="stylesheet">
+  <style>
+
+    *{
+      font-family: 'Gothic A1', sans-serif;
+    } 
+    .mytitle{
+  
+      background-color: aquamarine;
+      width:300px;
+      height:200px;
+      color: white;
+      text-align: center;
+      /*배경 이미지, 배경 생성때 한번에 구성하면 좋을 명령어들*/
+      background-image: url(https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg);
+      background-size: cover;
+      background-position: center;
+     
+      border-radius: 10px;
+
+      padding-top: 50px;
+      display: block;
+    
+  }
+
+  .wrap{
+    width: 300px;
+    margin: auto;
+  } /*이미지와 텍스트 div를 가운데로 정렬*/
+  </style>
+</head>
+
+<body>
+  <div class = "wrap">
+  <div class = mytitle>
+    <h1>로그인 페이지</h1>
+    <h5>아이디, 비밀번호를 입력해주세요</h5>
+  </div>
+    
+    <p>ID: <input type = "text"> </p>
+    <p>PW:  <input type = "text"> </p>
+    <button>로그인하기</button>
+
+  </div>
+</body>
+</html>
+
+
+ 
